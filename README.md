@@ -20,4 +20,4 @@
 - JavaScript (vanilla, без фреймворков)
 - Google Fonts: Unbounded, Inter, JetBrains Mono
 
-## Структура проекта
+
