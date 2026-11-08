@@ -1,0 +1,1231 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebLab Iris — дипломы и проекты по веб-разработке под ключ</title>
+    <meta name="description"
+        content="Дипломы по веб-разработке под ключ: сайт или БД, документация по ГОСТ, презентация и защита. Прозрачные цены от 8 000 ₽, сроки от 2 недель. Примеры работ и отзывы.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://weblab-iris.ru/">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- COOKIE BANNER -->
+    <div class="cookie-banner" id="cookieBanner" role="dialog" aria-label="Использование cookie">
+        <p>Мы используем cookie для корректной работы сайта. Продолжая пользоваться сайтом, вы соглашаетесь с <a
+                href="cookies.html">политикой cookie</a>.</p>
+        <div class="cookie-actions">
+            <button type="button" class="accept" id="cookieAccept">Принять</button>
+            <button type="button" id="cookieDecline">Только необходимые</button>
+        </div>
+    </div>
+
+    <header class="site-header">
+        <a class="logo" href="#top">
+            <span class="logo-mark" aria-hidden="true">W</span>
+            <span>WebLab <span class="brand-iris">Iris</span><span style="color:var(--rose)">.</span></span>
+        </a>
+        <nav class="nav" aria-label="Основная навигация">
+            <a href="#cases">кейсы</a>
+            <a href="#pricing">цены</a>
+            <a href="#services">услуги</a>
+            <a href="#process">процесс</a>
+            <a href="#faq">вопросы</a>
+            <a href="#contact">контакты</a>
+        </nav>
+        <a class="header-cta" href="#contact">Обсудить проект <span aria-hidden="true">↗</span></a>
+
+        <button class="burger" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="mobileMenu"
+            id="burger">
+            <span></span><span></span><span></span>
+        </button>
+    </header>
+
+    <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+        <div class="mobile-panel" role="dialog" aria-modal="true" aria-label="Мобильное меню">
+            <p class="m-eyebrow">навигация</p>
+            <nav class="mobile-nav" aria-label="Мобильная навигация">
+                <a href="#cases">кейсы</a>
+                <a href="#pricing">цены</a>
+                <a href="#services">услуги</a>
+                <a href="#process">процесс</a>
+                <a href="#faq">вопросы</a>
+                <a href="#contact">контакты</a>
+                <a href="cookies.html">cookie</a>
+            </nav>
+
+            <div class="mobile-contact">
+                <span class="m-title">связаться</span>
+                <a href="tel:+79611475651">
+                    <span>+7 961 147-56-51<small>телефон</small></span>
+                    <span class="arrow" aria-hidden="true">↗</span>
+                </a>
+                <a href="https://t.me/iris1_i" target="_blank" rel="noopener noreferrer">
+                    <span>@iris1_i<small>telegram</small></span>
+                    <span class="arrow" aria-hidden="true">↗</span>
+                </a>
+                <a href="https://vk.com/irinalexandrovn_a" target="_blank" rel="noopener noreferrer">
+                    <span>@irinalexandrovn_a<small>вконтакте</small></span>
+                    <span class="arrow" aria-hidden="true">↗</span>
+                </a>
+            </div>
+
+            <a class="mobile-cta" href="#contact">Обсудить проект <span aria-hidden="true">↗</span></a>
+        </div>
+    </div>
+
+    <main id="top">
+
+        <!-- ================= HOME ================= -->
+        <div class="page is-active" id="page-home">
+
+            <!-- HERO -->
+            <section class="hero" aria-labelledby="hero-title">
+                <div class="hero-inner">
+                    <div class="hero-text">
+                        <p class="eyebrow reveal d1">дипломы по веб-разработке</p>
+                        <h1 id="hero-title" class="reveal d2">
+                            Диплом<br>
+                            <em>без нервов</em>
+                        </h1>
+                        <p class="hero-lead reveal d3">
+                            Сайт или база данных, документация по ГОСТ, защита. <strong>От 18 000 ₽, от 3
+                                недель.</strong>
+                        </p>
+                        <div class="hero-cta reveal d4">
+                            <a class="btn btn-primary" href="#contact">Обсудить проект <span class="arrow"
+                                    aria-hidden="true">↗</span></a>
+                            <a class="btn btn-ghost" href="#cases">Смотреть кейсы <span class="arrow"
+                                    aria-hidden="true">→</span></a>
+                        </div>
+                    </div>
+
+                    <div class="hero-figure reveal d3" aria-hidden="true">
+                        <div class="hero-glow"></div>
+                        <div class="orbit orbit-1"></div>
+                        <div class="orbit orbit-2"></div>
+
+                        <span class="hero-core">&lt;/&gt;</span>
+
+                        <div class="chip-wrap chip-1"><span class="hero-chip">HTML5</span></div>
+                        <div class="chip-wrap chip-2"><span class="hero-chip">CSS3</span></div>
+                        <div class="chip-wrap chip-3"><span class="hero-chip">JavaScript</span></div>
+                        <div class="chip-wrap chip-4"><span class="hero-chip">PHP</span></div>
+                        <div class="chip-wrap chip-5"><span class="hero-chip">SQL</span></div>
+                        <div class="chip-wrap chip-6"><span class="hero-chip">REST API</span></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- WHY -->
+            <section class="section why" aria-labelledby="why-title">
+                <div class="section-inner">
+                    <div class="section-head">
+                        <p class="eyebrow">почему со мной</p>
+                        <h2 class="section-title" id="why-title">Без сюрпризов <em>и нервов</em></h2>
+                    </div>
+                    <div class="why-grid">
+                        <div class="why-card">
+                            <span class="why-num">01</span>
+                            <h3>Прозрачные сроки</h3>
+                            <p>Согласуем план и даты сдач по разделам. Вы всегда знаете, на каком этапе проект.</p>
+                        </div>
+                        <div class="why-card">
+                            <span class="why-num">02</span>
+                            <h3>Правки бесплатно</h3>
+                            <p>Доработки по замечаниям научрука входят в стоимость — в разумных пределах.</p>
+                        </div>
+                        <div class="why-card">
+                            <span class="why-num">03</span>
+                            <h3>Объясню код</h3>
+                            <p>Показываю, как всё устроено, чтобы вы могли ответить на вопросы комиссии.</p>
+                        </div>
+                        <div class="why-card">
+                            <span class="why-num">04</span>
+                            <h3>Оплата частями</h3>
+                            <p>Аванс и остаток после сдачи. Без предоплаты за весь объём сразу.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CASES -->
+            <section class="section cases" id="cases" aria-labelledby="cases-title">
+                <div class="section-inner">
+                    <div class="cases-head">
+                        <div class="section-head" style="margin-bottom:0">
+                            <p class="eyebrow">кейсы · примеры работ</p>
+                            <h2 class="section-title" id="cases-title">Что уже <em>сдано</em></h2>
+                            <p class="section-sub">Реальные проекты с задачей, стеком и результатом. У каждого —
+                                отдельная страница с деталями.</p>
+                        </div>
+                        <div class="case-filters" role="tablist" aria-label="Фильтр кейсов">
+                            <button type="button" class="is-active" data-filter="all" role="tab"
+                                aria-selected="true">все</button>
+                            <button type="button" data-filter="site" role="tab" aria-selected="false">сайты</button>
+                            <button type="button" data-filter="db" role="tab" aria-selected="false">базы данных</button>
+                            <button type="button" data-filter="app" role="tab"
+                                aria-selected="false">веб-приложения</button>
+                        </div>
+                    </div>
+
+                    <div class="cases-grid" id="casesGrid">
+                        <a class="case-card" href="#case-ceramics" data-cat="site">
+                            <div class="case-top"><span class="case-num">01 — сайт</span><span
+                                    class="case-badge">лендинг</span></div>
+                            <div class="case-preview">
+                                <img class="case-preview__img" src="images/case-ceramics.png"
+                                    alt="Превью кейса: сайт студии керамики" loading="lazy" width="800" height="500">
+                            </div>
+                            <h3>Сайт студии керамики</h3>
+                            <p class="case-desc">Адаптивный лендинг с каталогом и корзиной на JavaScript. В дипломе —
+                                вёрстка, UX и работа с DOM.</p>
+                            <div class="case-result">✓ защищён на «отлично»</div>
+                            <div class="case-meta">
+                                <div><span>стек</span><b>HTML/CSS/JS</b></div>
+                                <div><span>срок</span><b>4 недели</b></div>
+                                <div><span>объём</span><b>62 стр.</b></div>
+                            </div>
+                            <span class="case-more">открыть кейс <span class="arrow" aria-hidden="true">↗</span></span>
+                        </a>
+
+                        <a class="case-card" href="#case-requests-db" data-cat="db">
+                            <div class="case-top"><span class="case-num">02 — БД</span><span
+                                    class="case-badge">проектирование</span></div>
+                            <div class="case-preview">
+                                <img class="case-preview__img" src="images/case-requests-db.png"
+                                    alt="Превью кейса: БД учёта заявок" loading="lazy" width="800" height="500">
+                            </div>
+                            <h3>БД учёта заявок</h3>
+                            <p class="case-desc">ER-диаграмма, нормализация до 3НФ, SQL-запросы и отчёты. В дипломе —
+                                обоснование схемы.</p>
+                            <div class="case-result">✓ научрук принял почти сразу</div>
+                            <div class="case-meta">
+                                <div><span>стек</span><b>MySQL</b></div>
+                                <div><span>срок</span><b>3 недели</b></div>
+                                <div><span>объём</span><b>58 стр.</b></div>
+                            </div>
+                            <span class="case-more">открыть кейс <span class="arrow" aria-hidden="true">↗</span></span>
+                        </a>
+
+                        <a class="case-card" href="#case-analytics" data-cat="app">
+                            <div class="case-top"><span class="case-num">03 — веб-приложение</span><span
+                                    class="case-badge">fullstack</span></div>
+                            <div class="case-preview">
+                                <img class="case-preview__img" src="images/case-analytics.png"
+                                    alt="Превью кейса: панель аналитики" loading="lazy" width="800" height="500">
+                            </div>
+                            <h3>Панель аналитики</h3>
+                            <p class="case-desc">Авторизация, API на PHP и графики на JS. В дипломе — архитектура, БД и
+                                оптимизация.</p>
+                            <div class="case-result">✓ разобрали вопросы комиссии</div>
+                            <div class="case-meta">
+                                <div><span>стек</span><b>PHP + JS + API</b></div>
+                                <div><span>срок</span><b>6 недель</b></div>
+                                <div><span>объём</span><b>84 стр.</b></div>
+                            </div>
+                            <span class="case-more">открыть кейс <span class="arrow" aria-hidden="true">↗</span></span>
+                        </a>
+
+                        <a class="case-card" href="#case-corporate" data-cat="site">
+                            <div class="case-top"><span class="case-num">04 — сайт</span><span
+                                    class="case-badge">корпоративный</span></div>
+                            <div class="case-preview">
+                                <img class="case-preview__img" src="images/case-corporate.png"
+                                    alt="Превью кейса: корпоративный сайт" loading="lazy" width="800" height="500">
+                            </div>
+                            <h3>Корпоративный сайт</h3>
+                            <p class="case-desc">Многостраничный сайт с новостями, формой и админкой на PHP.
+                                Документация по ГОСТ.</p>
+                            <div class="case-result">✓ сдан с первого раза</div>
+                            <div class="case-meta">
+                                <div><span>стек</span><b>PHP + MySQL</b></div>
+                                <div><span>срок</span><b>5 недель</b></div>
+                                <div><span>объём</span><b>76 стр.</b></div>
+                            </div>
+                            <span class="case-more">открыть кейс <span class="arrow" aria-hidden="true">↗</span></span>
+                        </a>
+
+                        <a class="case-card" href="#case-shop-db" data-cat="db">
+                            <div class="case-top"><span class="case-num">05 — БД</span><span
+                                    class="case-badge">SQL</span></div>
+                            <div class="case-preview">
+                                <img class="case-preview__img" src="images/case-shop-db.png"
+                                    alt="Превью кейса: БД интернет-магазина" loading="lazy" width="800" height="500">
+                            </div>
+                            <h3>БД интернет-магазина</h3>
+                            <p class="case-desc">Товары, заказы, триггеры и хранимые процедуры. Оптимизация запросов и
+                                индексы.</p>
+                            <div class="case-result">✓ разобрали триггеры на защите</div>
+                            <div class="case-meta">
+                                <div><span>стек</span><b>MySQL</b></div>
+                                <div><span>срок</span><b>4 недели</b></div>
+                                <div><span>объём</span><b>66 стр.</b></div>
+                            </div>
+                            <span class="case-more">открыть кейс <span class="arrow" aria-hidden="true">↗</span></span>
+                        </a>
+
+                        <a class="case-card" href="#case-tasks" data-cat="app">
+                            <div class="case-top"><span class="case-num">06 — веб-приложение</span><span
+                                    class="case-badge">SPA</span></div>
+                            <div class="case-preview">
+                                <img class="case-preview__img" src="images/case-tasks.png"
+                                    alt="Превью кейса: приложение для задач" loading="lazy" width="800" height="500">
+                            </div>
+                            <h3>Приложение для задач</h3>
+                            <p class="case-desc">SPA на чистом JS с авторизацией через PHP API и сохранением в MySQL.
+                            </p>
+                            <div class="case-result">✓ SPA + API без фреймворков</div>
+                            <div class="case-meta">
+                                <div><span>стек</span><b>JS + PHP + API</b></div>
+                                <div><span>срок</span><b>5 недель</b></div>
+                                <div><span>объём</span><b>72 стр.</b></div>
+                            </div>
+                            <span class="case-more">открыть кейс <span class="arrow" aria-hidden="true">↗</span></span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- STACK -->
+            <section class="section stack" id="stack" aria-labelledby="stack-title">
+                <div class="section-inner">
+                    <div class="section-head">
+                        <p class="eyebrow">стек</p>
+                        <h2 class="section-title" id="stack-title">Технологии <em>по делу</em></h2>
+                        <p class="section-sub">Классический стек, который легко объяснить на защите и запустить на любом
+                            хостинге.</p>
+                    </div>
+                    <div class="stack-groups">
+                        <div class="stack-group">
+                            <h3>frontend</h3>
+                            <ul>
+                                <li>HTML5: семантика и доступность</li>
+                                <li>CSS3: Grid, Flexbox, адаптив</li>
+                                <li>JavaScript: DOM, события, fetch</li>
+                                <li>работа с API через fetch / AJAX</li>
+                            </ul>
+                        </div>
+                        <div class="stack-group">
+                            <h3>backend</h3>
+                            <ul>
+                                <li>PHP: процедурный и ООП</li>
+                                <li>формы и сессии</li>
+                                <li>REST API на PHP</li>
+                                <li>аутентификация и права доступа</li>
+                            </ul>
+                        </div>
+                        <div class="stack-group">
+                            <h3>базы данных</h3>
+                            <ul>
+                                <li>SQL: SELECT, JOIN, GROUP BY</li>
+                                <li>MySQL / MariaDB</li>
+                                <li>проектирование и нормализация</li>
+                                <li>ER-диаграммы и индексы</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- PRICING -->
+            <section class="section pricing" id="pricing" aria-labelledby="pricing-title">
+                <div class="section-inner">
+                    <div class="section-head">
+                        <p class="eyebrow">цены</p>
+                        <h2 class="section-title" id="pricing-title">Прозрачные <em>цены</em></h2>
+                        <p class="section-sub">Точную смету скажу после брифа. Ниже — ориентиры, чтобы вы понимали
+                            порядок цифр.</p>
+                    </div>
+
+                    <div class="pricing-grid">
+                        <article class="price-card">
+                            <span class="price-name">Сайт или БД</span>
+                            <div class="price-value">от 8 000 ₽<small>за проект</small></div>
+                            <ul class="price-list">
+                                <li>лендинг, сайт или база данных</li>
+                                <li>исходники и инструкция запуска</li>
+                                <li>1–2 бесплатные правки</li>
+                                <li>срок — от 2 недель</li>
+                            </ul>
+                            <p class="price-note">если документацию пишете сами</p>
+                            <a class="btn btn-ghost" href="#contact">Обсудить <span class="arrow"
+                                    aria-hidden="true">→</span></a>
+                        </article>
+
+                        <article class="price-card is-featured">
+                            <span class="price-badge">чаще всего выбирают</span>
+                            <span class="price-name">Диплом под ключ</span>
+                            <div class="price-value">от 18 000 ₽<small>проект + работа</small></div>
+                            <ul class="price-list">
+                                <li>сайт или веб-приложение + БД</li>
+                                <li>пояснительная записка по ГОСТ</li>
+                                <li>схемы архитектуры и БД</li>
+                                <li>проверка на антиплагиат</li>
+                                <li>презентация и речь</li>
+                                <li>сопровождение до защиты</li>
+                            </ul>
+                            <p class="price-note">правки по научруку включены</p>
+                            <a class="btn btn-primary" href="#contact">Обсудить <span class="arrow"
+                                    aria-hidden="true">↗</span></a>
+                        </article>
+
+                        <article class="price-card">
+                            <span class="price-name">Документация и защита</span>
+                            <div class="price-value">от 5 000 ₽<small>за комплект</small></div>
+                            <ul class="price-list">
+                                <li>пояснительная записка по ГОСТ</li>
+                                <li>схемы БД и архитектуры</li>
+                                <li>слайды под ваш проект</li>
+                                <li>речь на 7–10 минут</li>
+                                <li>срок — от 5 дней</li>
+                            </ul>
+                            <p class="price-note">можно отдельно от проекта</p>
+                            <a class="btn btn-ghost" href="#contact">Обсудить <span class="arrow"
+                                    aria-hidden="true">→</span></a>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <!-- GUARANTEES -->
+            <section class="section guarantees" aria-labelledby="guarantees-title">
+                <div class="section-inner">
+                    <div class="section-head">
+                        <p class="eyebrow">гарантии</p>
+                        <h2 class="section-title" id="guarantees-title">Что вы <em>получаете</em></h2>
+                    </div>
+                    <div class="guarantees-grid">
+                        <div class="guarantee">
+                            <div class="g-icon">✓</div>
+                            <div>
+                                <h3>Правки по научруку</h3>
+                                <p>Дорабатываю текст и проект до соответствия требованиям кафедры.</p>
+                            </div>
+                        </div>
+                        <div class="guarantee">
+                            <div class="g-icon">✓</div>
+                            <div>
+                                <h3>Сопровождение до защиты</h3>
+                                <p>Отвечаю на вопросы, помогаю с речью и разбором вопросов комиссии.</p>
+                            </div>
+                        </div>
+                        <div class="guarantee">
+                            <div class="g-icon">✓</div>
+                            <div>
+                                <h3>Исходники и инструкция</h3>
+                                <p>Передаю код, схему БД и инструкцию запуска — проект остаётся у вас.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SERVICES -->
+            <section class="section services" id="services" aria-labelledby="services-title">
+                <div class="section-inner">
+                    <div class="section-head">
+                        <p class="eyebrow">услуги</p>
+                        <h2 class="section-title" id="services-title">Что можно <em>заказать</em></h2>
+                        <p class="section-sub">Можно взять проект целиком или только то, что нужно.</p>
+                    </div>
+                    <div class="services-grid">
+                        <article class="service-card">
+                            <div class="num">01 — под ключ</div>
+                            <h3>Диплом + проект</h3>
+                            <p>Полный цикл: от темы до защиты.</p>
+                            <ul>
+                                <li>согласование темы и плана</li>
+                                <li>разработка сайта или веб-приложения</li>
+                                <li>проектирование базы данных</li>
+                                <li>документация по ГОСТ</li>
+                                <li>презентация и речь</li>
+                            </ul>
+                        </article>
+                        <article class="service-card">
+                            <div class="num">02 — проект</div>
+                            <h3>Сайт или база данных</h3>
+                            <p>Только работающий проект, без документации.</p>
+                            <ul>
+                                <li>лендинг, корпоративный сайт, веб-приложение</li>
+                                <li>база данных: схема, SQL, нормализация</li>
+                                <li>backend на PHP и API</li>
+                                <li>исходники и инструкция запуска</li>
+                            </ul>
+                        </article>
+                        <article class="service-card">
+                            <div class="num">03 — защита</div>
+                            <h3>Документация и защита</h3>
+                            <p>Когда проект уже есть, а дальше — записка и слайды.</p>
+                            <ul>
+                                <li>пояснительная записка по ГОСТ</li>
+                                <li>схемы БД и архитектуры</li>
+                                <li>слайды под ваш проект</li>
+                                <li>речь и разбор вопросов</li>
+                            </ul>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <!-- PROCESS -->
+            <section class="section process" id="process" aria-labelledby="process-title">
+                <div class="section-inner">
+                    <div class="section-head">
+                        <p class="eyebrow">как проходит работа</p>
+                        <h2 class="section-title" id="process-title">Прозрачно <em>на каждом</em> шаге</h2>
+                        <p class="section-sub">Вы всегда знаете, что происходит с проектом и когда будет следующий
+                            результат.</p>
+                    </div>
+                    <div class="process-steps">
+                        <div class="step">
+                            <h4>Заявка и бриф</h4>
+                            <p>Обсуждаем тему, стек, сроки и требования кафедры.</p>
+                        </div>
+                        <div class="step">
+                            <h4>План и смета</h4>
+                            <p>Согласуем структуру, функционал, стоимость и даты.</p>
+                        </div>
+                        <div class="step">
+                            <h4>Разработка и текст</h4>
+                            <p>Пишу код и главы, показываю промежуточные результаты.</p>
+                        </div>
+                        <div class="step">
+                            <h4>БД, оформление, проверка</h4>
+                            <p>Схема БД, оформление по ГОСТ, антиплагиат.</p>
+                        </div>
+                        <div class="step">
+                            <h4>Защита и доработки</h4>
+                            <p>Презентация, речь, вопросы и правки по научруку.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- FAQ -->
+            <section class="section faq" id="faq" aria-labelledby="faq-title">
+                <div class="section-inner">
+                    <div class="section-head">
+                        <p class="eyebrow">частые вопросы</p>
+                        <h2 class="section-title" id="faq-title">Отвечаю <em>коротко</em></h2>
+                    </div>
+                    <div class="faq-list">
+                        <details class="faq-item" open>
+                            <summary>Вы делаете только дипломы по веб-разработке?</summary>
+                            <p>Да. Сайты, базы данных, веб-приложения, PHP, SQL и API. Также пишу пояснительные записки,
+                                презентации и готовлю к защите.</p>
+                        </details>
+                        <details class="faq-item">
+                            <summary>Можно заказать только сайт или только базу данных?</summary>
+                            <p>Да. Проект отдельно от документации: сделаю сайт или БД, передам исходники и инструкцию
+                                запуска. Документацию можно заказать позже.</p>
+                        </details>
+                        <details class="faq-item">
+                            <summary>Что если научрук попросит переделать?</summary>
+                            <p>Правки по замечаниям научрука входят в работу. Дорабатываю текст и проект до соответствия
+                                требованиям — в разумных пределах и по согласованным срокам.</p>
+                        </details>
+                        <details class="faq-item">
+                            <summary>Как проходит оплата?</summary>
+                            <p>Аванс перед началом работы и остаток после сдачи. Без предоплаты за весь объём сразу.
+                                Точные условия обсуждаем на брифе.</p>
+                        </details>
+                        <details class="faq-item">
+                            <summary>Как начать работу?</summary>
+                            <p>Напишите тему, специальность, стек (если есть пожелания), сроки и требования кафедры. Я
+                                задам уточняющие вопросы, предложу план и стоимость. Первая консультация бесплатная.</p>
+                        </details>
+                    </div>
+                </div>
+            </section>
+
+            <!-- REVIEWS -->
+            <section class="section reviews" aria-labelledby="reviews-title">
+                <div class="section-inner">
+                    <div class="section-head">
+                        <p class="eyebrow">отзывы</p>
+                        <h2 class="section-title" id="reviews-title">Спокойно <em>дошли</em> до защиты</h2>
+                    </div>
+                    <div class="reviews-grid">
+                        <article class="review">
+                            <div class="quote" aria-hidden="true">“</div>
+                            <p>Делали сайт и базу данных для диплома. Понравилось, что показывали промежуточные
+                                результаты и объясняли, как всё устроено — на защите было что сказать.</p>
+                            <div class="author"><b>Игорь</b><span>веб-разработка · 4 курс</span></div>
+                        </article>
+                        <article class="review">
+                            <div class="quote" aria-hidden="true">“</div>
+                            <p>Заказывала только пояснительную записку и презентацию — проект делала сама. Всё оформили
+                                по ГОСТ, слайды получились аккуратные.</p>
+                            <div class="author"><b>Мария</b><span>веб-разработка · 5 курс</span></div>
+                        </article>
+                        <article class="review">
+                            <div class="quote" aria-hidden="true">“</div>
+                            <p>Помогли с базой данных: ER-диаграмма, нормализация, запросы. Научрук принял почти сразу,
+                                вопросы комиссии разобрали заранее.</p>
+                            <div class="author"><b>Анна</b><span>информационные системы · 4 курс</span></div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CONTACT -->
+            <section class="section contact" id="contact" aria-labelledby="contact-title">
+                <div class="section-inner contact-inner">
+                    <div class="contact-text">
+                        <p class="eyebrow">контакты</p>
+                        <h2 id="contact-title">Расскажите<br><em>о проекте</em></h2>
+                        <p class="contact-lead">Напишите тему, специальность, стек и сроки — отвечу в течение дня,
+                            предложу план и стоимость. Первая консультация бесплатная.</p>
+                        <div class="contact-actions">
+                            <a class="btn btn-primary" href="tel:+79611475651">Позвонить <span class="arrow"
+                                    aria-hidden="true">↗</span></a>
+                            <a class="btn btn-ghost" href="#cases">Смотреть кейсы <span class="arrow"
+                                    aria-hidden="true">→</span></a>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-status"><span class="status-dot" aria-hidden="true"></span>беру новые
+                            проекты</div>
+                        <h3>связаться со мной</h3>
+                        <a class="contact-link" href="tel:+79611475651"><span>Телефон<small>+7 961
+                                    147-56-51</small></span><span class="arrow" aria-hidden="true">↗</span></a>
+                        <a class="contact-link" href="https://t.me/iris1_i" target="_blank"
+                            rel="noopener noreferrer"><span>Telegram<small>@iris1_i</small></span><span class="arrow"
+                                aria-hidden="true">↗</span></a>
+                        <a class="contact-link" href="https://vk.com/irinalexandrovn_a" target="_blank"
+                            rel="noopener noreferrer"><span>ВКонтакте<small>@irinalexandrovn_a</small></span><span
+                                class="arrow" aria-hidden="true">↗</span></a>
+                    </div>
+                </div>
+            </section>
+
+        </div><!-- /page-home -->
+
+        <!-- CASE PAGES -->
+        <div class="page" id="page-case-ceramics">
+            <section class="case-page">
+                <div class="case-page-inner">
+                    <a class="back-link" href="#cases"><span class="arrow" aria-hidden="true">←</span> ко всем
+                        кейсам</a>
+                    <div class="case-hero">
+                        <div class="case-hero-text">
+                            <p class="eyebrow">кейс 01 · сайт</p>
+                            <h1>Сайт студии <em>керамики</em></h1>
+                            <p class="lead">Адаптивный лендинг для студии керамики: каталог, корзина на чистом
+                                JavaScript, анимация и форма заказа. В дипломе — <strong>вёрстка, UX и взаимодействие с
+                                    DOM</strong>.</p>
+                            <div class="case-badges">
+                                <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>адаптив</span><span>лендинг</span>
+                            </div>
+                        </div>
+                        <div class="case-visual">
+                            <div class="visual-bar"><i></i><i></i><i></i><span
+                                    class="url">weblab-iris.ru/ceramics</span></div>
+                            <div class="visual-inner">
+                                <img class="visual-inner__img" src="images/case-ceramics.png"
+                                    alt="Скриншот сайта студии керамики" loading="lazy" width="1200" height="750">
+                            </div>
+                            <div class="visual-caption">скриншот · каталог и корзина</div>
+                        </div>
+                    </div>
+                    <div class="case-facts">
+                        <div class="case-fact"><span>стек</span><b>HTML / CSS / JS</b></div>
+                        <div class="case-fact"><span>срок</span><b>4 недели</b></div>
+                        <div class="case-fact"><span>объём</span><b>62 стр.</b></div>
+                        <div class="case-fact"><span>оценка</span><b>отлично</b></div>
+                    </div>
+                    <div class="case-blocks">
+                        <div class="case-block">
+                            <h2>Задача</h2>
+                            <p>Сделать промо-сайт студии с каталогом и возможностью собрать заказ без перезагрузки. Сайт
+                                должен хорошо выглядеть на телефоне и быть понятным для скринридеров.</p>
+                            <ul>
+                                <li><b>Каталог</b> с карточками, ценой и фильтром.</li>
+                                <li><b>Корзина</b> на JavaScript: добавление, удаление, подсчёт суммы.</li>
+                                <li><b>Адаптивная сетка</b> от 320px.</li>
+                                <li><b>Доступность</b>: семантика, alt, фокус, aria.</li>
+                            </ul>
+                        </div>
+                        <div class="case-block">
+                            <h2>Что сделано</h2>
+                            <ul>
+                                <li><b>Вёрстка</b>: семантика, CSS Grid для каталога, Flexbox для карточек.</li>
+                                <li><b>Анимации</b>: плавное увеличение превью при hover.</li>
+                                <li><b>JavaScript</b>: рендер каталога, корзина в localStorage, подсчёт итогов.</li>
+                                <li><b>Форма заказа</b>: валидация на клиенте, сообщение об успехе.</li>
+                            </ul>
+                        </div>
+                        <div class="case-block">
+                            <h2>Ключевой фрагмент кода <em>(корзина)</em></h2>
+                            <div class="code-block">
+                                <div class="code-head"><i></i><i></i><i></i><span>script.js</span><b>JavaScript</b>
+                                </div>
+                                <pre><span class="kw">const</span> cart = [];
+<span class="kw">const</span> cartEl = document.querySelector(<span class="str">'#cart-list'</span>);
+<span class="kw">const</span> totalEl = document.querySelector(<span class="str">'#cart-total'</span>);
+
+<span class="kw">function</span> addToCart(product) {
+  cart.push(product);
+  renderCart();
+}
+
+<span class="kw">function</span> renderCart() {
+  cartEl.innerHTML = cart.map(item =&gt;
+    <span class="str">`&lt;li&gt;${item.title} — ${item.price} ₽&lt;/li&gt;`</span>
+  ).join(<span class="str">''</span>);
+
+  <span class="kw">const</span> total = cart.reduce((sum, item) =&gt; sum + item.price, 0);
+  totalEl.textContent = total + <span class="str">' ₽'</span>;
+  localStorage.setItem(<span class="str">'cart'</span>, JSON.stringify(cart));
+}</pre>
+                            </div>
+                            <p>В дипломе этот фрагмент разобран в главе о взаимодействии с DOM и хранении состояния на
+                                клиенте.</p>
+                        </div>
+                        <div class="case-block">
+                            <h2>Результат</h2>
+                            <p>Сайт собран без фреймворков, быстро загружается и полностью адаптивен. В записке описаны
+                                <strong>структура проекта, вёрстка, работа корзины и проверка доступности</strong>. На
+                                защите разбирали DOM, localStorage и CSS Grid.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="case-cta">
+                        <p>Нужен похожий проект? <b>Обсудим задачу и сроки.</b></p>
+                        <div class="cta-actions">
+                            <a class="btn btn-primary" href="#contact">Обсудить проект <span class="arrow"
+                                    aria-hidden="true">↗</span></a>
+                            <a class="btn btn-ghost" href="#case-requests-db">Следующий кейс <span class="arrow"
+                                    aria-hidden="true">→</span></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="page" id="page-case-requests-db">
+            <section class="case-page">
+                <div class="case-page-inner">
+                    <a class="back-link" href="#cases"><span class="arrow" aria-hidden="true">←</span> ко всем
+                        кейсам</a>
+                    <div class="case-hero">
+                        <div class="case-hero-text">
+                            <p class="eyebrow">кейс 02 · база данных</p>
+                            <h1>БД для учёта <em>заявок</em></h1>
+                            <p class="lead">Проектирование базы данных для отдела заявок. В дипломе —
+                                <strong>ER-диаграмма, нормализация до 3НФ, SQL-запросы, представления и отчёты</strong>.
+                            </p>
+                            <div class="case-badges">
+                                <span>SQL</span><span>MySQL</span><span>ER-диаграмма</span><span>3НФ</span><span>отчёты</span>
+                            </div>
+                        </div>
+                        <div class="case-visual">
+                            <div class="visual-bar"><i></i><i></i><i></i><span
+                                    class="url">weblab-iris.ru/requests-db</span></div>
+                            <div class="visual-inner">
+                                <img class="visual-inner__img" src="images/case-requests-db.png"
+                                    alt="Скриншот отчётов и статистики БД учёта заявок" loading="lazy" width="1200"
+                                    height="750">
+                            </div>
+                            <div class="visual-caption">скриншот · отчёты и статистика</div>
+                        </div>
+                    </div>
+                    <div class="case-facts">
+                        <div class="case-fact"><span>стек</span><b>MySQL · SQL</b></div>
+                        <div class="case-fact"><span>срок</span><b>3 недели</b></div>
+                        <div class="case-fact"><span>объём</span><b>58 стр.</b></div>
+                        <div class="case-fact"><span>оценка</span><b>отлично</b></div>
+                    </div>
+                    <div class="case-blocks">
+                        <div class="case-block">
+                            <h2>Задача</h2>
+                            <p>Спроектировать базу данных: клиенты, сотрудники, заявки, статусы и история. Нужны отчёты
+                                по количеству и срокам обработки.</p>
+                            <ul>
+                                <li><b>Сущности</b>: клиенты, сотрудники, заявки, статусы, комментарии.</li>
+                                <li><b>Нормализация</b> до третьей нормальной формы.</li>
+                                <li><b>Отчёты</b>: заявки по статусам, среднее время, нагрузка на сотрудников.</li>
+                            </ul>
+                        </div>
+                        <div class="case-block">
+                            <h2>Структура БД</h2>
+                            <ul>
+                                <li><b>clients</b> — id, name, email, phone.</li>
+                                <li><b>employees</b> — id, name, role.</li>
+                                <li><b>requests</b> — id, client_id, employee_id, status_id, created_at, closed_at.</li>
+                                <li><b>statuses</b> — id, title.</li>
+                                <li><b>comments</b> — id, request_id, author_id, text, created_at.</li>
+                            </ul>
+                        </div>
+                        <div class="case-block">
+                            <h2>Ключевой SQL-запрос <em>(отчёт по статусам)</em></h2>
+                            <div class="code-block">
+                                <div class="code-head"><i></i><i></i><i></i><span>report.sql</span><b>SQL</b></div>
+                                <pre><span class="kw">SELECT</span>
+  s.title <span class="kw">AS</span> status,
+  <span class="kw">COUNT</span>(r.id) <span class="kw">AS</span> total,
+  <span class="kw">ROUND</span>(<span class="kw">AVG</span>(<span class="kw">TIMESTAMPDIFF</span>(<span class="kw">DAY</span>, r.created_at, r.closed_at)), 1) <span class="kw">AS</span> avg_days
+<span class="kw">FROM</span> requests r
+<span class="kw">JOIN</span> statuses s <span class="kw">ON</span> s.id = r.status_id
+<span class="kw">GROUP BY</span> s.title
+<span class="kw">ORDER BY</span> total <span class="kw">DESC</span>;</pre>
+                            </div>
+                            <p>В дипломе разобраны <strong>группировка, агрегатные функции и JOIN</strong>.</p>
+                        </div>
+                        <div class="case-block">
+                            <h2>Результат</h2>
+                            <p>Схема нормализована, построены ER-диаграмма и отчёты. В записке — <strong>обоснование
+                                    сущностей, связи, индексы и примеры запросов</strong>. На защите разбирали
+                                нормализацию и оптимизацию.</p>
+                        </div>
+                    </div>
+                    <div class="case-cta">
+                        <p>Нужна база данных? <b>Обсудим тему и схему.</b></p>
+                        <div class="cta-actions">
+                            <a class="btn btn-primary" href="#contact">Обсудить проект <span class="arrow"
+                                    aria-hidden="true">↗</span></a>
+                            <a class="btn btn-ghost" href="#case-analytics">Следующий кейс <span class="arrow"
+                                    aria-hidden="true">→</span></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="page" id="page-case-analytics">
+            <section class="case-page">
+                <div class="case-page-inner">
+                    <a class="back-link" href="#cases"><span class="arrow" aria-hidden="true">←</span> ко всем
+                        кейсам</a>
+                    <div class="case-hero">
+                        <div class="case-hero-text">
+                            <p class="eyebrow">кейс 03 · веб-приложение</p>
+                            <h1>Панель <em>аналитики</em></h1>
+                            <p class="lead">Веб-приложение с авторизацией, API на PHP и графиками на JS. В дипломе —
+                                <strong>архитектура, база данных, REST API и оптимизация запросов</strong>.
+                            </p>
+                            <div class="case-badges">
+                                <span>PHP</span><span>JavaScript</span><span>API</span><span>MySQL</span><span>авторизация</span>
+                            </div>
+                        </div>
+                        <div class="case-visual">
+                            <div class="visual-bar"><i></i><i></i><i></i><span
+                                    class="url">weblab-iris.ru/analytics</span></div>
+                            <div class="visual-inner">
+                                <img class="visual-inner__img" src="images/case-analytics.png"
+                                    alt="Скриншот панели аналитики с графиками" loading="lazy" width="1200"
+                                    height="750">
+                            </div>
+                            <div class="visual-caption">скриншот · графики и метрики</div>
+                        </div>
+                    </div>
+                    <div class="case-facts">
+                        <div class="case-fact"><span>стек</span><b>PHP + JS + API</b></div>
+                        <div class="case-fact"><span>срок</span><b>6 недель</b></div>
+                        <div class="case-fact"><span>объём</span><b>84 стр.</b></div>
+                        <div class="case-fact"><span>оценка</span><b>отлично</b></div>
+                    </div>
+                    <div class="case-blocks">
+                        <div class="case-block">
+                            <h2>Задача</h2>
+                            <p>Внутренняя панель, где сотрудник после входа видит метрики и графики. Данные в MySQL,
+                                отдаются через API, рисуются на клиенте.</p>
+                            <ul>
+                                <li><b>Авторизация</b>: регистрация, вход, сессии.</li>
+                                <li><b>API</b>: эндпоинты для метрик и графиков.</li>
+                                <li><b>Клиент</b>: загрузка данных через fetch.</li>
+                                <li><b>Безопасность</b>: подготовленные запросы, проверка прав.</li>
+                            </ul>
+                        </div>
+                        <div class="case-block">
+                            <h2>Архитектура и API</h2>
+                            <ul>
+                                <li><b>Структура</b>: /api, /views, /assets.</li>
+                                <li><b>Эндпоинты</b>: <code>GET /api/metrics</code>,
+                                    <code>GET /api/chart?period=week</code>, <code>POST /api/login</code>.
+                                </li>
+                                <li><b>Формат</b>: JSON, коды 200/400/401.</li>
+                                <li><b>БД</b>: users, metrics, events, sessions.</li>
+                            </ul>
+                        </div>
+                        <div class="case-block">
+                            <h2>Ключевой фрагмент <em>(запрос данных)</em></h2>
+                            <div class="code-block">
+                                <div class="code-head"><i></i><i></i><i></i><span>dashboard.js</span><b>JavaScript</b>
+                                </div>
+                                <pre><span class="kw">async function</span> loadChart(period = <span class="str">'week'</span>) {
+  <span class="kw">const</span> res = <span class="kw">await</span> fetch(<span class="str">`/api/chart?period=${period}`</span>, {
+    headers: { <span class="str">'Accept'</span>: <span class="str">'application/json'</span> }
+  });
+  <span class="kw">if</span> (!res.ok) <span class="kw">throw new</span> Error(<span class="str">'Ошибка загрузки'</span>);
+  <span class="kw">const</span> data = <span class="kw">await</span> res.json();
+  renderChart(data);
+}</pre>
+                            </div>
+                            <p>В дипломе разобраны <strong>fetch, обработка ошибок и формат JSON-ответа</strong>.</p>
+                        </div>
+                        <div class="case-block">
+                            <h2>Результат</h2>
+                            <p>Приложение работает локально и на хостинге, данные приходят через API. В записке —
+                                <strong>схема БД, эндпоинты, авторизация и оптимизация</strong>. На защите разбирали API
+                                и безопасность.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="case-cta">
+                        <p>Нужно веб-приложение? <b>Обсудим функционал.</b></p>
+                        <div class="cta-actions">
+                            <a class="btn btn-primary" href="#contact">Обсудить проект <span class="arrow"
+                                    aria-hidden="true">↗</span></a>
+                            <a class="btn btn-ghost" href="#case-corporate">Следующий кейс <span class="arrow"
+                                    aria-hidden="true">→</span></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="page" id="page-case-corporate">
+            <section class="case-page">
+                <div class="case-page-inner">
+                    <a class="back-link" href="#cases"><span class="arrow" aria-hidden="true">←</span> ко всем
+                        кейсам</a>
+                    <div class="case-hero">
+                        <div class="case-hero-text">
+                            <p class="eyebrow">кейс 04 · сайт</p>
+                            <h1>Корпоративный <em>сайт</em></h1>
+                            <p class="lead">Многостраничный сайт: новости, услуги, форма обратной связи и админка на
+                                PHP. В дипломе — <strong>структура, формы, сессии и CRUD</strong>.</p>
+                            <div class="case-badges">
+                                <span>PHP</span><span>MySQL</span><span>HTML5</span><span>CSS3</span><span>админка</span>
+                            </div>
+                        </div>
+                        <div class="case-visual">
+                            <div class="visual-bar"><i></i><i></i><i></i><span
+                                    class="url">weblab-iris.ru/corporate</span></div>
+                            <div class="visual-inner">
+                                <img class="visual-inner__img" src="images/case-corporate.png"
+                                    alt="Скриншот корпоративного сайта со страницей новостей" loading="lazy" width="1200"
+                                    height="750">
+                            </div>
+                            <div class="visual-caption">скриншот · страницы и новости</div>
+                        </div>
+                    </div>
+                    <div class="case-facts">
+                        <div class="case-fact"><span>стек</span><b>PHP + MySQL</b></div>
+                        <div class="case-fact"><span>срок</span><b>5 недель</b></div>
+                        <div class="case-fact"><span>объём</span><b>76 стр.</b></div>
+                        <div class="case-fact"><span>оценка</span><b>отлично</b></div>
+                    </div>
+                    <div class="case-blocks">
+                        <div class="case-block">
+                            <h2>Задача</h2>
+                            <p>Сайт компании с возможностью добавлять новости через админку и получать заявки с формы.
+                            </p>
+                            <ul>
+                                <li><b>Страницы</b>: главная, услуги, новости, контакты.</li>
+                                <li><b>Админка</b>: вход, добавление и редактирование новостей.</li>
+                                <li><b>Форма</b>: сохранение заявок в БД.</li>
+                                <li><b>Безопасность</b>: хеширование паролей, подготовленные запросы.</li>
+                            </ul>
+                        </div>
+                        <div class="case-block">
+                            <h2>Структура и БД</h2>
+                            <ul>
+                                <li><b>Страницы</b>: шаблоны в /views, общий header и footer.</li>
+                                <li><b>БД</b>: таблицы news, requests, users.</li>
+                                <li><b>Админка</b>: /admin с проверкой сессии.</li>
+                                <li><b>Заявки</b>: сохранение и просмотр.</li>
+                            </ul>
+                        </div>
+                        <div class="case-block">
+                            <h2>Ключевой фрагмент <em>(сохранение заявки)</em></h2>
+                            <div class="code-block">
+                                <div class="code-head"><i></i><i></i><i></i><span>request.php</span><b>PHP</b></div>
+                                <pre><span class="kw">if</span> ($_SERVER[<span class="str">'REQUEST_METHOD'</span>] === <span class="str">'POST'</span>) {
+  $name = trim($_POST[<span class="str">'name'</span>] ?? <span class="str">''</span>);
+  $email = trim($_POST[<span class="str">'email'</span>] ?? <span class="str">''</span>);
+  $text = trim($_POST[<span class="str">'message'</span>] ?? <span class="str">''</span>);
+
+  <span class="kw">if</span> ($name &amp;&amp; filter_var($email, FILTER_VALIDATE_EMAIL) &amp;&amp; $text) {
+    $stmt = $pdo-&gt;prepare(
+      <span class="str">'INSERT INTO requests (name, email, message, created_at) VALUES (?, ?, ?, NOW())'</span>
+    );
+    $stmt-&gt;execute([$name, $email, $text]);
+    $ok = <span class="str">'Заявка отправлена'</span>;
+  }
+}</pre>
+                            </div>
+                            <p>В дипломе разобраны <strong>валидация, подготовленные запросы и защита от
+                                    SQL-инъекций</strong>.</p>
+                        </div>
+                        <div class="case-block">
+                            <h2>Результат</h2>
+                            <p>Сайт с админкой и формой заявок на PHP и MySQL. В записке — <strong>структура, CRUD,
+                                    сессии и безопасность</strong>. На защите разбирали формы и подготовленные запросы.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="case-cta">
+                        <p>Нужен сайт с админкой? <b>Обсудим задачу.</b></p>
+                        <div class="cta-actions">
+                            <a class="btn btn-primary" href="#contact">Обсудить проект <span class="arrow"
+                                    aria-hidden="true">↗</span></a>
+                            <a class="btn btn-ghost" href="#case-shop-db">Следующий кейс <span class="arrow"
+                                    aria-hidden="true">→</span></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="page" id="page-case-shop-db">
+            <section class="case-page">
+                <div class="case-page-inner">
+                    <a class="back-link" href="#cases"><span class="arrow" aria-hidden="true">←</span> ко всем
+                        кейсам</a>
+                    <div class="case-hero">
+                        <div class="case-hero-text">
+                            <p class="eyebrow">кейс 05 · база данных</p>
+                            <h1>БД интернет-<em>магазина</em></h1>
+                            <p class="lead">База данных магазина: товары, категории, заказы, пользователи. В дипломе —
+                                <strong>схема, триггеры, хранимые процедуры и оптимизация</strong>.
+                            </p>
+                            <div class="case-badges">
+                                <span>SQL</span><span>MySQL</span><span>триггеры</span><span>процедуры</span><span>индексы</span>
+                            </div>
+                        </div>
+                        <div class="case-visual">
+                            <div class="visual-bar"><i></i><i></i><i></i><span class="url">weblab-iris.ru/shop-db</span>
+                            </div>
+                            <div class="visual-inner">
+                                <img class="visual-inner__img" src="images/case-shop-db.png"
+                                    alt="Скриншот таблиц заказов и товаров БД интернет-магазина" loading="lazy"
+                                    width="1200" height="750">
+                            </div>
+                            <div class="visual-caption">скриншот · заказы и товары</div>
+                        </div>
+                    </div>
+                    <div class="case-facts">
+                        <div class="case-fact"><span>стек</span><b>MySQL · SQL</b></div>
+                        <div class="case-fact"><span>срок</span><b>4 недели</b></div>
+                        <div class="case-fact"><span>объём</span><b>66 стр.</b></div>
+                        <div class="case-fact"><span>оценка</span><b>отлично</b></div>
+                    </div>
+                    <div class="case-blocks">
+                        <div class="case-block">
+                            <h2>Задача</h2>
+                            <p>Спроектировать БД магазина с товарами, категориями, заказами и пользователями. Добавить
+                                триггеры и процедуру для отчёта по продажам.</p>
+                            <ul>
+                                <li><b>Сущности</b>: categories, products, users, orders, order_items.</li>
+                                <li><b>Триггер</b>: пересчёт суммы заказа.</li>
+                                <li><b>Процедура</b>: отчёт по продажам за период.</li>
+                                <li><b>Индексы</b>: по категориям и датам.</li>
+                            </ul>
+                        </div>
+                        <div class="case-block">
+                            <h2>Ключевой фрагмент <em>(триггер)</em></h2>
+                            <div class="code-block">
+                                <div class="code-head"><i></i><i></i><i></i><span>triggers.sql</span><b>SQL</b></div>
+                                <pre><span class="kw">DELIMITER</span> //
+<span class="kw">CREATE TRIGGER</span> after_order_item
+<span class="kw">AFTER INSERT ON</span> order_items
+<span class="kw">FOR EACH ROW</span>
+<span class="kw">BEGIN</span>
+  <span class="kw">UPDATE</span> orders
+  <span class="kw">SET</span> total = (
+    <span class="kw">SELECT</span> <span class="kw">SUM</span>(price * quantity)
+    <span class="kw">FROM</span> order_items
+    <span class="kw">WHERE</span> order_id = NEW.order_id
+  )
+  <span class="kw">WHERE</span> id = NEW.order_id;
+<span class="kw">END</span>//
+<span class="kw">DELIMITER</span> ;</pre>
+                            </div>
+                            <p>В дипломе разобраны <strong>триггеры, переменные NEW и пересчёт агрегатов</strong>.</p>
+                        </div>
+                        <div class="case-block">
+                            <h2>Результат</h2>
+                            <p>Схема нормализована, триггеры и процедуры работают, отчёты строятся быстро. В записке —
+                                <strong>схема, триггеры, процедуры и индексы</strong>. На защите разбирали триггеры и
+                                оптимизацию.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="case-cta">
+                        <p>Нужна БД магазина? <b>Обсудим схему.</b></p>
+                        <div class="cta-actions">
+                            <a class="btn btn-primary" href="#contact">Обсудить проект <span class="arrow"
+                                    aria-hidden="true">↗</span></a>
+                            <a class="btn btn-ghost" href="#case-tasks">Следующий кейс <span class="arrow"
+                                    aria-hidden="true">→</span></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="page" id="page-case-tasks">
+            <section class="case-page">
+                <div class="case-page-inner">
+                    <a class="back-link" href="#cases"><span class="arrow" aria-hidden="true">←</span> ко всем
+                        кейсам</a>
+                    <div class="case-hero">
+                        <div class="case-hero-text">
+                            <p class="eyebrow">кейс 06 · веб-приложение</p>
+                            <h1>Приложение для <em>задач</em></h1>
+                            <p class="lead">SPA на чистом JavaScript с авторизацией через PHP API и сохранением в MySQL.
+                                В дипломе — <strong>SPA, fetch, REST API и сессии</strong>.</p>
+                            <div class="case-badges">
+                                <span>JavaScript</span><span>PHP</span><span>API</span><span>MySQL</span><span>SPA</span>
+                            </div>
+                        </div>
+                        <div class="case-visual">
+                            <div class="visual-bar"><i></i><i></i><i></i><span class="url">weblab-iris.ru/tasks</span>
+                            </div>
+                            <div class="visual-inner">
+                                <img class="visual-inner__img" src="images/case-tasks.png"
+                                    alt="Скриншот приложения для задач со списком" loading="lazy" width="1200"
+                                    height="750">
+                            </div>
+                            <div class="visual-caption">скриншот · список задач</div>
+                        </div>
+                    </div>
+                    <div class="case-facts">
+                        <div class="case-fact"><span>стек</span><b>JS + PHP + API</b></div>
+                        <div class="case-fact"><span>срок</span><b>5 недель</b></div>
+                        <div class="case-fact"><span>объём</span><b>72 стр.</b></div>
+                        <div class="case-fact"><span>оценка</span><b>отлично</b></div>
+                    </div>
+                    <div class="case-blocks">
+                        <div class="case-block">
+                            <h2>Задача</h2>
+                            <p>Приложение для задач: вход, список, добавление, редактирование и удаление без
+                                перезагрузки.</p>
+                            <ul>
+                                <li><b>Авторизация</b>: вход и регистрация через PHP API.</li>
+                                <li><b>CRUD задач</b>: через fetch.</li>
+                                <li><b>SPA</b>: интерфейс обновляется без перезагрузки.</li>
+                                <li><b>БД</b>: таблицы users, tasks.</li>
+                            </ul>
+                        </div>
+                        <div class="case-block">
+                            <h2>API и структура</h2>
+                            <ul>
+                                <li><b>Эндпоинты</b>: <code>GET/POST /api/tasks</code>,
+                                    <code>PUT/DELETE /api/tasks/{id}</code>.
+                                </li>
+                                <li><b>Формат</b>: JSON, проверка сессии на каждом запросе.</li>
+                                <li><b>Клиент</b>: рендер списка, обработка форм, обновление DOM.</li>
+                                <li><b>Безопасность</b>: проверка владельца задачи, подготовленные запросы.</li>
+                            </ul>
+                        </div>
+                        <div class="case-block">
+                            <h2>Ключевой фрагмент <em>(CRUD на клиенте)</em></h2>
+                            <div class="code-block">
+                                <div class="code-head"><i></i><i></i><i></i><span>tasks.js</span><b>JavaScript</b></div>
+                                <pre><span class="kw">async function</span> createTask(title) {
+  <span class="kw">const</span> res = <span class="kw">await</span> fetch(<span class="str">'/api/tasks'</span>, {
+    method: <span class="str">'POST'</span>,
+    headers: { <span class="str">'Content-Type'</span>: <span class="str">'application/json'</span> },
+    body: JSON.stringify({ title })
+  });
+  <span class="kw">const</span> task = <span class="kw">await</span> res.json();
+  tasks.push(task);
+  renderTasks();
+}
+
+<span class="kw">async function</span> deleteTask(id) {
+  <span class="kw">await</span> fetch(<span class="str">`/api/tasks/${id}`</span>, { method: <span class="str">'DELETE'</span> });
+  tasks = tasks.filter(t =&gt; t.id !== id);
+  renderTasks();
+}</pre>
+                            </div>
+                            <p>В дипломе разобраны <strong>fetch, методы HTTP, JSON и обновление DOM</strong>.</p>
+                        </div>
+                        <div class="case-block">
+                            <h2>Результат</h2>
+                            <p>SPA работает без перезагрузки, данные сохраняются в MySQL через PHP API. В записке —
+                                <strong>архитектура, API, сессии и безопасность</strong>. На защите разбирали REST и
+                                fetch.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="case-cta">
+                        <p>Нужно SPA? <b>Обсудим функционал.</b></p>
+                        <div class="cta-actions">
+                            <a class="btn btn-primary" href="#contact">Обсудить проект <span class="arrow"
+                                    aria-hidden="true">↗</span></a>
+                            <a class="btn btn-ghost" href="#case-ceramics">К первому кейсу <span class="arrow"
+                                    aria-hidden="true">→</span></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a class="logo" href="#top">
+                        <span class="logo-mark" aria-hidden="true">W</span>
+                        <span>WebLab <span class="brand-iris">Iris</span><span style="color:var(--rose)">.</span></span>
+                    </a>
+                    <p>Дипломы и проекты по веб-разработке: сайты, базы данных, PHP, SQL, API, документация и защита.
+                    </p>
+                    <p class="footer-now">сейчас беру <strong>2–3 проекта в месяц</strong> — успейте обсудить сроки.</p>
+                </div>
+                <nav class="footer-nav" aria-label="Навигация в подвале">
+                    <div class="footer-col">
+                        <h3>разделы</h3>
+                        <a href="#cases">кейсы</a>
+                        <a href="#pricing">цены</a>
+                        <a href="#services">услуги</a>
+                        <a href="#process">процесс</a>
+                        <a href="#faq">вопросы</a>
+                        <a href="#contact">контакты</a>
+                    </div>
+                    <div class="footer-col">
+                        <h3>связь</h3>
+                        <a href="tel:+79611475651">+7 961 147-56-51</a>
+                        <a href="https://t.me/iris1_i" target="_blank" rel="noopener noreferrer">Telegram · @iris1_i</a>
+                        <a href="https://vk.com/irinalexandrovn_a" target="_blank" rel="noopener noreferrer">ВК ·
+                            @irinalexandrovn_a</a>
+                        <span class="footer-static">отвечаю в течение дня</span>
+                        <span class="footer-static">часовой пояс UTC+3</span>
+                    </div>
+                    <div class="footer-col">
+                        <h3>документы</h3>
+                        <a href="cookies.html">политика cookie</a>
+                    </div>
+                </nav>
+            </div>
+            <div class="footer-bottom">
+                <span>© 2025 WebLab Iris. Дипломы и проекты по веб-разработке.</span>
+                <div class="footer-legal-links">
+                    <a href="cookies.html">cookie</a>
+                </div>
+                <a class="footer-top-link" href="#top">наверх <span class="arrow" aria-hidden="true">↑</span></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
